@@ -1,0 +1,65 @@
+.certificate {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 2px solid #333333; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .certificate-content {
+    padding: 20px;
+  }
+  
+  .certificate-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .certificate-subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-student {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .certificate-course {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+  .certificate-course-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .certificate-from {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+  .certificate-completion-from {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .certificate-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  

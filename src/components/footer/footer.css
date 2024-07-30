@@ -1,0 +1,27 @@
+.footer {
+  padding: 40px 0;
+}
+
+.footer h5 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

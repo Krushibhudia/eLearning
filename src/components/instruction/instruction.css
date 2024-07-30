@@ -1,0 +1,63 @@
+.instruction-container {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f3f4f7, #e2e4ea);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.steps-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.step {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  min-width: 300px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 0; 
+}
+
+.step.animate__fadeInUp {
+  opacity: 1; 
+}
+
+.step-icon {
+  background: #17bf9e;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 10px auto; 
+}
+
+
+.step h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  color: #666;
+}
+
+.arrow {
+  font-size: 36px;
+  color: #17bf9e;
+}

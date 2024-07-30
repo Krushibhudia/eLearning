@@ -1,0 +1,50 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+
+.loading, .error {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this line to vertically center the stars */
+  margin-bottom: 10px;
+}
+
+.star-rating button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0; /* Remove padding to eliminate extra space */
+  font-size: 24px;
+  margin: 0 2px; /* Adjust margin for spacing between stars */
+}
+
+.star-rating button .fas {
+  color: #e4e5e9;
+}
+
+.star-rating button.text-warning .fas {
+  color: #ffc107;
+}
+
+.bg-light.p-4.rounded.shadow form {
+  width: 100%; 
+}
+
+.bg-light.p-4.rounded.shadow form button[type="submit"] {
+  width: 50%; 
+  margin-top: 20px; 
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
+
+.enroll-button {
+  padding: 10px 20px; 
+}
+
